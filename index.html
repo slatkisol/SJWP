@@ -4,15 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noa Zorko</title>
-</head>
-<body>
-    <h3>SJWP - Noa Zorko</h3>
+
+    <!-- <h3>SJWP - Noa Zorko</h3>
     <ol>
         <li><a href="zadace/zadaca1.html">zadaća</a></li>
         <li></li>
         <li></li>
         <li></li>
         <li></li>
-    </ol>
-</body>
-</html>
+    </ol> -->
+
+
+<h3>Forme u HTML-u</h3>
+
+<form action="zadaca/zadaca1.html" method="get">
+
+    <label for="">Unesi ime: </label>
+    <input type="text" id="ime" placeholder="unesi ime..." maxlength="6" size="10">
+    <br>
+    <label for="">Unesi prezime:</label>
+    <input type="text" id="prezime"> 
+    <br>
+    <label for="mail">Unesi e-mail</label>
+    <input type="email" id="mail" required>
+    <br>
+
+    <label for="pass">Unesi lozinku</label>
+    <input for="pass" id="pass">
+    <br>
+    <label for="date">Unesi datum:</label>
+    <input type="date"  id="date">
+    <br>
+
+    <label>Unesi boju:</label>
+    <input type="color">
+    <br>
+
+    <label>Izaberi boju:</label>
+    
+    <input type="radio" name="boja" id="crvena" value="crvena">
+    <label for="crvena">Crvena</label><br>
+    <input type="radio" name="boja" id="zuta" value="zuta">
+    <label for="zuta">Žuta</label><br>
+    <input type="radio" name="boja" id="zelena" value="zelena">
+    <label for="zelena">Zelena</label><br>
+
+    <label>Izaberi predmeta koje imaš danas:</label><br>
+
+    <input type="checkbox" name="hrvatski" id="hrvatski" value="hrvatski">
+    <label for="hrvatski">Hrvatski</label><br>
+
+    <input type="checkbox" name="matematika" id="matematika" value="matematika">
+    <label for="matematika">Matematika</label><br>
+
+    <input type="checkbox" name="tzk" id="tzk" value="tzk">
+    <label for="tzk">Tjelesni</label>
+
+
+
+
+    <input type="submit" value="Pošalji">
+    <input type="reset" value="Poništi">
+
+
+
+</form>
+
+
