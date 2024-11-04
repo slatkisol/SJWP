@@ -1,0 +1,39 @@
+h1{
+    color:mediumturquoise
+}
+
+
+/* class selector */
+
+.prvi{
+
+    color:aqua
+}
+
+.drugi{
+    color:burlywood
+}
+
+.treci{
+    color:aquamarine
+}
+
+/*id selector*/
+
+#cetvrti{
+    color:blue
+}
+
+p[draggable="true"]{
+    color:cyan
+}
+
+p[draggable="false"]{
+    color: deeppink;
+}
+
+/*univerzalni selektor*/
+
+*{
+    background-color: powderblue;
+}
