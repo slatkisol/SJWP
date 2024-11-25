@@ -5,3 +5,13 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+p{
+  color: red;
+}
+
+p[value="2"]{
+  color:blue;
+
+  
+}
