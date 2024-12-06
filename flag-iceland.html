@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .relative{
+            background-color: blue;
+            width: 700px;
+            height: 500px;
+            position: relative;
+            
+        }
+
+        .bijela{
+
+            height: 100px;
+            width: 700px;
+            top: 200px;
+            background-color: white;
+            position: absolute;
+
+        }
+
+        .bijela2{
+
+            height:700px;
+            width: 100px;
+            background-color: white;
+            position: absolute;
+            left:150px;
+        }
+
+        .crvena{
+            height:50px;
+            width: 700px;
+            background-color: red;
+            position: absolute;
+            top:225px;
+            z-index:1;
+
+        
+        }
+        .crvena2{
+            height: 500px;
+            width: 50px;
+            background-color: red;
+            left:175px;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Zastava Iceland</h2>
+
+    <div class="relative">
+
+        <div class="bijela"></div>
+        <div class="crvena"></div>
+        <div class="bijela2"></div>
+        <div class="crvena2"></div>
+
+    
+    </div>
+    
+</body>
+</html>
+
+
