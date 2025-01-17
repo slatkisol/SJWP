@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo klase</title>
+    <style>
+
+        
+        
+
+       /*  a:link{
+
+            color:red;
+
+        }
+
+        a:visited{
+            color:chartreuse;
+
+        }
+            */
+        div:hover{
+         
+            height: 250px;
+            width: 250px;
+            
+            transform:rotate(90deg)
+           
+            
+         
+        }
+        /*
+        a:active{
+            color:darkmagenta;
+            width: 400px;
+        } */
+
+        .relative{
+            position: relative;
+            margin-left: 250px;
+
+        }
+
+        .prvi{
+            
+            background-color: red;
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            transition: width 2s, transform 2s;
+
+
+        }
+        .drugi{
+            background-color:blue;
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            transition: width 2s, transform 2s;
+            margin-top: 250px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    
+
+    <h3>Pseudo klase</h3> 
+    <a href="https://net.hr/">TSSB</a>
+    <br>
+    <div class="relative">
+        <div class="prvi"></div>
+        <div class="drugi"></div>
+        <div class="treci"></div>
+        <div class="cetvrti"></div>
+
+    </div>
+
+
+</body>
+</html>
