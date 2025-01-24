@@ -1,0 +1,70 @@
+.prvi{
+    font-family:"Roboto",serif ;
+    font-weight: 600;
+    font-size: 4rem;
+
+    
+
+}
+.drugi{
+    font-family:"Roboto",serif;
+    color:#4CAF50;
+
+
+
+}
+
+.font{
+    font-family:"Open Sans",serif;
+
+}
+.highlight{
+    color:#FFC107;
+}
+
+
+.paragraf1{
+
+    color:#37474F;
+    font-size:16px;
+    font-family:"Open Sans",serif;
+
+}
+
+.paragraf2{
+    color:#546E7A;
+    font-size:18px;
+    font-family:"Open Sans",serif;
+
+}
+
+.paragraf3{
+    color:#78909C;
+    font-size:20px;
+    font-family:"Open Sans",serif;
+
+}
+
+div{
+    background-color: #ECEFF1;
+    font-family:"Open Sans",serif;
+}
+
+.list1¸{
+    list-style-type: circle;
+    font-family:"Open Sans",serif;
+}
+.list2{
+    list-style-type: square;
+    font-family:"Open Sans",serif;
+}
+.list3 {
+    list-style-type: upper-roman;
+    font-family:"Open Sans",serif;
+}
+
+.list4{
+    list-style-type: lower-alpha;
+    font-family:"Open Sans",serif;
+}
+
