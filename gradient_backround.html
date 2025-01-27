@@ -10,6 +10,7 @@
             height: 100vh;
             background-image: linear-gradient(#F5EBFA,#E7DBEF,#A56ABD,#6E3482,#49225B);
             
+            
         }
         .paragraf{
             padding-left:70px;
@@ -81,19 +82,25 @@
             color:purple;
         }
         div{
-            box-shadow: 10px 10px 30px black;
+            box-shadow: 5px 5px 20px black;
+            transition:transform 500ms;
+            margin-left:650px;
         }
+        div:hover{
+            transform: translateY(-40px);
+        }
+        
 
 
     </style>
 </head>
 <body>
-    <div class="relative">
+    
         <div class="darkpurple"><p class="paragraf">#49225B</p></div>
         <div class="purple"><p class="paragraf">#6E3482</p></div>
         <div class="lightpurple"><p class="paragraf">#A56ABD</p></div>
         <div class="whitepink"><p class="paragraf">#E7DBEF</p></div>
         <div class="white"><p class="paragraf">#F5EBFA</p></div>
-    </div>
+  
 </body>
 </html>
