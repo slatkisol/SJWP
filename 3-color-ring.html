@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .relative{
+
+            position: relative; 
+            margin-left:500px;
+            margin-top:250px;
+            border-color: black;
+            border:5px solid;
+            width: 300px;
+            height: 300px;
+
+        }
+
+
+        .prvi{
+
+            position:absolute;
+            border-radius: 50%;
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            z-index:1;
+            margin-left:50px;
+            margin-top:50px;
+           
+
+        }
+
+        .drugi{
+            z-index:-1;
+
+            position:absolute;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display:inline-block;
+
+            background: radial-gradient(white 40%, transparent 41%), conic-gradient(#40e0d0 0% 33%, #008080 33% 66%, #004c4c  66% 100%);
+        }
+
+        .krug1{
+
+            position: absolute;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            
+            
+
+
+        }
+
+
+
+        
+       
+
+       
+
+
+    </style>
+</head>
+<body>
+
+    <div class="relative">
+
+        <div class="prvi"></div>
+        <div class="drugi"></div>
+        <div class="treci"></div>
+        <div class="krug1"></div>
+    </div>
+    </div>
+    
+</body>
+</html>
