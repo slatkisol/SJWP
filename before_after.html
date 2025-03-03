@@ -27,14 +27,48 @@
             transition: 100ms;
         }
 
-        h2::after:hover{
+        h2:hover::after{
             width: 0;
+        }
+
+        button{
+            padding: 1em 2em;
+            background-color: white;
+            border: none;
+            color:black;
+            font-weight: bold;
+            border-radius:420px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            position: relative;
+            top:2px;
+
+        }
+
+        button::after{
+            content:'';
+            position:absolute;
+            height: 108%;
+            width: 104%;
+            background-image: linear-gradient(to bottom right,cyan , purple);
+            border-radius: 100px;
+            left:-2px;
+            top:-2px;
+            z-index:-1;
+
+
+        }
+
+        button:hover::after{
+            z-index:0;
         }
     </style>
 </head>
 <body>
 
     <h2>Before & After</h2>
+    <br>
+
+    <button>Button</button>
     
 </body>
 </html>
